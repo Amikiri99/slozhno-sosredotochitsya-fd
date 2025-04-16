@@ -12,15 +12,14 @@
   --border-color-hover: rgba(53, 52, 48, 0.4);
 }
 
-.theme-light .page {
-  --bg-color: #fff1f7;
-  --cover-image: url(../images/cover-image-light.png);
-}
-
 .theme-light .header__rec {
   display: none;
 }
 
+.theme-light .page {
+  --bg-color: #fff1f7;
+  --cover-image: url(../images/cover-image-light.png);
+}
 
 @media (prefers-color-scheme: light) {
   :root {
