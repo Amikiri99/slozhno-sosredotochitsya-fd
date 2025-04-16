@@ -8,15 +8,15 @@
   --border-color-hover: rgba(255, 0, 112, 0.4);
 }
 
+.theme-dark .header__rec { 
+  display: block; 
+}
+
 .theme-dark .page {
   --bg-color: #000028;
   --cover-image: url(../images/cover-image-dark.png);
 }
 
-.theme-dark .header__rec { 
-  display: block; 
-}
-  
 
 
 
