@@ -55,7 +55,7 @@
   position: absolute;
   top: 10px;
   right: 39px;
-  font-family: var(--main-font, monospace);
+  font-family: var(--main-font, monospace), monospace;
   color: var(--decoration-color);
   font-size: var(--main-font-size, 18px);
   z-index: -1;
@@ -85,7 +85,7 @@
   display: inline-block;
   block-size: 26px;
   padding: 0 13px;
-  font-family: var(--main-font, monospace);
+  font-family: var(--main-font, monospace), monospace;
   font-weight: var(--text-weight-normal, normal);
   font-size: var(--main-font-size, 18px);
   text-transform: lowercase;
@@ -98,7 +98,7 @@
 }
 
 .header__theme-menu-button:hover {
-  border: 1px solid var(--border-color-hover);
+  outline: 1px solid var(--border-color-hover);
 }
 
 .header__theme-menu-button_active {
@@ -113,7 +113,7 @@
 
 .cover__title {
   color: var(--big-text-color);
-  font-family: var(--main-font), monospace;
+  font-family: var(--main-font, monospace), monospace;
   font-size: var(--logo-size);
   text-shadow: 4px 4px 0 var(--accent-color);
   line-height: 95.7px;
@@ -122,7 +122,7 @@
 .title-decor {
   background-color: var(--accent-color);
   color: var(--accent-text-color);
-  font-family: var(--main-font, monospace);
+  font-family: var(--main-font, monospace), monospace;
   font-size: var(--main-font-size, 18px);
   line-height: 23.4px;
   margin-block-end: 10px;
@@ -148,7 +148,7 @@
 
 .section__title {
   display: block;
-  font-family: var(--main-font, monospace);
+  font-family: var(--main-font, monospace), monospace;
   font-size: var(--main-font-size, 18px);
   color: var(--decoration-color);
   margin-block-end: 20px;
@@ -159,7 +159,7 @@
 }
 
 .section__text {
-  font-family: var(--main-font, monospace);
+  font-family: var(--main-font, monospace), monospace;
   font-weight: var(--text-weight-normal, normal);
   color: var(--text-color);
   font-size: var(--main-font-size, 18px);
@@ -185,7 +185,7 @@
 }
 
 .subtitle {
-  font-family: var(--main-font, monospace);
+  font-family: var(--main-font, monospace), monospace;
   font-weight: var(--text-weight-normal, normal);
   font-size: var(--main-font-size, 18px);
   margin-block-start: 18px;
@@ -218,7 +218,7 @@
 
 .footer__title {
   color: var(--big-text-color);
-  font-family: var(--main-font, monospace);
+  font-family: var(--main-font, monospace), monospace;
   font-size: var(--logo-size);
   text-shadow: 2px 2px 0 var(--accent-color);
   text-align: center;
