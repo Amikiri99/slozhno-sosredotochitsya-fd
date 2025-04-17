@@ -89,12 +89,13 @@
   font-weight: var(--text-weight-normal, normal);
   font-size: var(--main-font-size, 18px);
   text-transform: lowercase;
-  border: none;
+  border: 1px solid transparent;
   background-color: initial;
   color: var(--decoration-color);
   text-align: center;
   line-height: 23.4px;
   cursor: pointer;
+
 }
 
 .header__theme-menu-button:hover {
@@ -171,6 +172,7 @@
   text-decoration: none;
   text-shadow: 1px 1px 0 var(--accent-color);
   cursor: pointer;
+
 }
 .text-link:hover {
   border-block-end: 1px solid var(--text-color);
